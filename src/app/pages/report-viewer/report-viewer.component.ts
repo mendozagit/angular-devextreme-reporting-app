@@ -1,15 +1,3 @@
-// import { Component } from '@angular/core';
-
-// @Component({
-//   selector: 'app-report-viewer',
-//   templateUrl: './report-viewer.component.html',
-//   styleUrls: ['./report-viewer.component.css']
-// })
-// export class ReportViewerComponent {
-
-// }
-
-
 import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
@@ -17,7 +5,7 @@ import { DxReportViewerModule } from 'devexpress-reporting-angular';
 
 @Component({
 selector: 'report-viewer',
-encapsulation: ViewEncapsulation.None,
+encapsulation: ViewEncapsulation.ShadowDom,
 standalone: true,
 imports: [
   CommonModule,

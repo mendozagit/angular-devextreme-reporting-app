@@ -19,7 +19,7 @@ import 'devexpress-reporting/dx-richedit';
 
 @Component({
   selector: 'report-designer',
-  encapsulation: ViewEncapsulation.None,
+  encapsulation: ViewEncapsulation.ShadowDom,
   standalone: true,
   imports: [
     CommonModule,
