@@ -17,5 +17,15 @@ export const navigation = [
         path: '/tasks'
       }
     ]
+  },
+  {
+    text: 'Report Viewer',
+    path: 'report-viewer',
+    icon: 'datatrending'
+  },
+  {
+    text: 'Report Designer',
+    path: 'report-designer',
+    icon: 'toolbox'
   }
 ];
