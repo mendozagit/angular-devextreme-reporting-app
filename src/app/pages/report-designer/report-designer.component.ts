@@ -19,7 +19,7 @@ import 'devexpress-reporting/dx-richedit';
 
 @Component({
   selector: 'report-designer',
-  encapsulation: ViewEncapsulation.ShadowDom,
+  encapsulation: ViewEncapsulation.None,
   standalone: true,
   imports: [
     CommonModule,
@@ -27,16 +27,27 @@ import 'devexpress-reporting/dx-richedit';
     DxReportDesignerModule],
   templateUrl: './report-designer.component.html',
   styleUrls: [
-    "../../../../node_modules/ace-builds/css/ace.css",
-    "../../../../node_modules/ace-builds/css/theme/dreamweaver.css",
-    "../../../../node_modules/ace-builds/css/theme/ambiance.css",
-    "../../../../node_modules/devextreme/dist/css/dx.light.css",
-    "../../../../node_modules/devexpress-richedit/dist/dx.richedit.css",
-    "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css",
-    "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.light.css",
-    "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-querybuilder.css",
-    "../../../../node_modules/devexpress-reporting/dist/css/dx-webdocumentviewer.css",
-    "../../../../node_modules/devexpress-reporting/dist/css/dx-reportdesigner.css"
+    // "../../../../node_modules/ace-builds/css/ace.css",
+    // "../../../../node_modules/ace-builds/css/theme/dreamweaver.css",
+    // "../../../../node_modules/ace-builds/css/theme/ambiance.css",
+    //"../../../../node_modules/devextreme/dist/css/dx.light.css",
+    // "../../../../node_modules/devexpress-richedit/dist/dx.richedit.css",
+    // "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css",
+    // "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.light.css",
+    // "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-querybuilder.css",
+    // "../../../../node_modules/devexpress-reporting/dist/css/dx-webdocumentviewer.css",
+    // "../../../../node_modules/devexpress-reporting/dist/css/dx-reportdesigner.css"
+
+  "../../../../node_modules/ace-builds/css/ace.css",
+  "../../../../node_modules/ace-builds/css/theme/dreamweaver.css",
+  "../../../../node_modules/ace-builds/css/theme/ambiance.css",
+  "../../../../node_modules/devextreme-dist/css/dx.material.purple.light.css",
+  "../../../../node_modules/devexpress-richedit/dist/dx.richedit.css",
+  "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css",
+  "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.material.purple.light.css",
+  "../../../../node_modules/@devexpress/analytics-core/dist/css/dx-querybuilder.css",
+  "../../../../node_modules/devexpress-reporting/dist/css/dx-webdocumentviewer.css",
+  "../../../../node_modules/devexpress-reporting/dist/css/dx-reportdesigner.css"
 ]
 })
 
